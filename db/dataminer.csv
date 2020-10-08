@@ -1,0 +1,52 @@
+id,pub_id,title,genre,platforms,initial_release_date,developers,publishers
+41,1,Minecraft,sandbox,Multi-platform,2011,Mojang Studios,Mojang Studios
+52,2,Grand Theft Auto V,action,Multi-platform,2013,Rockstar North,Rockstar Games
+63,3,Tetris (EA),other,Mobile,2006,EA Mobile,Electronic Arts
+44,4,Wii Sports,sports,Wii,2006,Nintendo EAD,Nintendo
+35,5,PlayerUnknown's Battlegrounds,action,Multi-platform,2017,PUBG Corporation,PUBG Corporation
+26,6,Super Mario Bros.,adventure,Multi-platform,1985,Nintendo,Nintendo
+17,7,Pokémon Red / Green / Blue / Yellow,adventure,Multi-platform,1996,Game Freak,Nintendo
+28,8,Wii Fit and Wii Fit Plus,Wii,sports,2007,Nintendo EAD,Nintendo
+29,9,Tetris (Nintendo),other,Game Boy / NES,1989,Nintendo R&D1,Nintendo
+310,10,Pac-Man,action,Multi-platform,1980,Namco,Namco
+311,11,Mario Kart Wii,sports,Wii,2008,Nintendo EAD,Nintendo
+412,12,Mario Kart 8 / Deluxe,sports,Wii U / Switch,2014,Nintendo EAD,Nintendo
+513,13,Wii Sports Resort,sports,Wii,2009,Nintendo EAD,Nintendo
+154,14,Red Dead Redemption 2,action,Multi-platform,2018,Rockstar Studios,Rockstar Games
+125,15,New Super Mario Bros.,action-adventure,Nintendo DS,2006,Nintendo EAD,Nintendo
+166,16,Terraria,other,Multi-platform,2011,Re-Logic,Re-Logic / 505 Games
+172,17,New Super Mario Bros. Wii,action-adventure,Wii,2009,Nintendo EAD,Nintendo
+138,18,The Elder Scrolls V: Skyrim,sandbox,Multi-platform,2011,Bethesda Game Studios,Bethesda Softworks
+192,19,Diablo III and Reaper of Souls,action-adventure,Multi-platform,2012,Blizzard Entertainment,Blizzard Entertainment
+220,20,Pokémon Gold / Silver / Crystal,action,Game Boy Color,1999,Game Freak,Nintendo
+212,21,Duck Hunt,sports,NES,1984,Nintendo R&D1,Nintendo
+222,22,Wii Play,sports,Wii,2006,Nintendo EAD,Nintendo
+232,23,The Witcher 3 / Hearts of Stone / Blood and Wine,action-adventure,Multi-platform,2015,CD Projekt Red,CD Projekt
+254,24,Grand Theft Auto: San Andreas,action,Multi-platform,2004,Rockstar North,Rockstar Games
+225,25,Call of Duty: Modern Warfare 3,action,Multi-platform,2011,Infinity Ward / Sledgehammer,Activision
+256,26,Call of Duty: Black Ops,action,Multi-platform,2010,Treyarch,Activision
+127,27,Grand Theft Auto IV,Multi-platform,action,2008,Rockstar North,Rockstar Games
+238,28,Pokémon Sun / Moon / Ultra Sun / Ultra Moon,adventure,Nintendo 3DS,2016,Game Freak,Nintendo / The Pokémon Company
+629,29,Pokémon Diamond / Pearl / Platinum,adventure,Nintendo DS,2006,Game Freak,Nintendo / The Pokémon Company
+320,30,Call of Duty: Black Ops II,action,Multi-platform,2012,Treyarch,Activision
+351,31,Kinect Adventures!,adventure,Xbox 360,2010,Good Science Studio,Xbox Game Studios
+325,32,FIFA 18,sports,Multi-platform,2017,EA Canada,Electronic Arts
+733,33,Sonic the Hedgehog,action,Multi-platform,1991,Sonic Team,Sega
+734,34,Nintendogs,sandbox,Nintendo DS,2005,Nintendo EAD,Nintendo
+385,35,Mario Kart DS,sports,Nintendo DS,2005,Nintendo EAD,Nintendo
+836,36,Call of Duty: Modern Warfare 2,action,Multi-platform,2009,Infinity Ward,Activision
+387,37,Pokémon Ruby / Sapphire / Emerald,action,Game Boy Advance,2002,Game Freak,Nintendo / The Pokémon Company
+388,38,Borderlands 2,action,Multi-platform,2012,Gearbox Software,2K Games
+939,39,Super Mario World,action-adventure,Multi-platform,1990,Nintendo EAD,Nintendo
+410,40,Frogger,strategy,Multi-platform,1981,Konami,Sega
+421,41,Lemmings,strategy,Multi-platform,1991,DMA Design,Psygnosis
+442,42,Grand Theft Auto: Vice City,action,Multi-platform,2002,Rockstar North,Rockstar Games
+453,43,The Last of Us,adventure,PS3 / PS4,2013,Naughty Dog,Sony Computer Entertainment
+424,44,The Legend of Zelda: Breath of the Wild,action-adventure,Switch / Wii U,2017,Nintendo EPD,Nintendo
+415,45,Brain Age,other,Nintendo DS,2005,Nintendo SPD,Nintendo
+496,46,Super Mario Bros. 3,action-adventure,Multi-platform,1988,Nintendo,Nintendo
+417,47,Call of Duty: Ghosts,action,Multi-platform,2013,Infinity Ward,Activision
+448,48,Super Smash Bros. Ultimate,action,Nintendo Switch,2018,Bandai Namco Studios / Sora Ltd.,Nintendo
+490,49,Mario Kart 7,sports,Nintendo 3DS,2011,Nintendo EAD,Nintendo
+510,50,Super Mario Land,action-adventure,Multi-platform,1989,Nintendo R&D1,Nintendo
+512,51,Gran Turismo 4,sports,PS2 / PSP,2004,Polyphony Digital,Sony Computer Entertainment
