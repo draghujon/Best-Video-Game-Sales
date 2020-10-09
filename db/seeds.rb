@@ -10,6 +10,45 @@ Region.delete_all
 Genre.delete_all
 Publisher.delete_all
 Platform.delete_all
+Page.delete_all
+
+Page.create(
+  title:     "About the Data",
+  content:   "The data powering my website was provided by \ndataminer.csv : title,genre,platforms,initial_release_date,developers,publishers\n
+                                                             sales.csv : sales\n
+                                                             Faker::Address.country for Region\n
+                                                             Models\n
+                                                             Game.rb\n
+                                                              game_name:string\n
+                                                              game_dev:string\n
+                                                            \n
+                                                            Genre.rb\n
+                                                             genre_name:string\n
+                                                            \n
+                                                            Game_Publisher.rb\n
+                                                             game_id:integer\n
+                                                             publisher_id:integer\n
+                                                            \n
+                                                            Publisher.rb\n
+                                                             pub_name:string\n
+                                                            \n
+                                                            Game_Platform.rb\n
+                                                             game_publisher_id:integer\n
+                                                             platform_id:integer\n
+                                                             release_year:integer\n
+                                                            \n
+                                                            Platform.rb\n
+                                                             platform_name:string\n
+                                                            \n
+                                                            Region_Sale.rb\n
+                                                             region_id:integer\n
+                                                             game_platform_id:integer\n
+                                                             num_sales:string\n
+                                                            \n
+                                                            Region.rb\n
+                                                             region_name:string\n",
+  permalink: "about_the_data"
+)
 
 filename = Rails.root.join("db/dataminer.csv")
 csv_data = File.read(filename)

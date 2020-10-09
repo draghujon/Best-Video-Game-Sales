@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  get 'publisher/index'
+  get 'publisher/show'
   resources :pages
+  get "/pages/:permalink" => "pages#permalink", as: :permalink
   get "genre/index"
   get "game/index"
   # get "game/show"

@@ -1,19 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<p class="title is-5">
   <strong>Title:</strong>
   <%= @page.title %>
 </p>
 
-<p>
+<p class="subtitle is-5">
   <strong>Content:</strong>
   <%= @page.content %>
 </p>
 
-<p>
+<p class="subtitle is-5">
   <strong>Permalink:</strong>
   <%= @page.permalink %>
 </p>
 
+<% if current_page?('/pages/1')%>
+  <%= image_tag "introERD-final.png"%>
+<% end %>
 <%= link_to 'Edit', edit_page_path(@page) %> |
 <%= link_to 'Back', pages_path %>
