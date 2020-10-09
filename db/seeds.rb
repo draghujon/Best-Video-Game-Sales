@@ -21,65 +21,49 @@ sales_num = CSV.parse(csv_data, headers: true, encoding: "utf-8")
 
 video_games.each.with_index do |vg, i|
   genre = Genre.find_or_create_by(genre_name: vg["genre"])
-  # publisher = Publisher.find_or_create_by(pub_name: vg["publishers"])
-  # platform = Platform.find_or_create_by(platform_name: vg["platforms"])
-  # release_date = GamePlatform.find_or_create_by(release_year: vg["initial_release_date"])
 
-  # if genre&.valid?
-  # Create the game.
-
-  # Genre.db
-  # has_many :games
-  # game = genre.games.create(
-  #  game_name: vg["title"],
-  #  game_dev:  vg["developers"]
-  # )
   puts genre.inspect
-  # Publisher.db
-  # has_many :game_publishers
-  # has_many :games, through: :game_publishers
-  game_pub = Publisher.create(
-    pub_name: vg["publishers"]
-  )
-  puts game_pub.inspect
 
   game = genre.games.create(
     game_name: vg["title"],
     game_dev:  vg["developers"],
     genre_id:  genre.id
   )
+  # puts game.inspect
+  game.save!
 
-  puts game.inspect
-
-  g_pub_id = GamePublisher.create(
-    id:           vg["pub_id"],
-    publisher_id: game_pub.id,
+  game_pub_id = game.game_publishers.create(
+    publisher_id: Publisher.find_or_create_by(pub_name: vg["publishers"]).id,
     game_id:      game.id
   )
-  puts g_pub_id.inspect
-  # Platform.db
-  # has_many :game_platforms
-  # has_many :game_publishers, through: :game_platforms
-  plat = Platform.create(
-    platform_name: vg["platforms"]
-  )
-  puts plat.inspect
-  g_pt_id = GamePlatform.create(
-    id:                vg["id"],
-    game_publisher_id: game_pub.id,
-    platform_id:       plat.id,
+  puts game_pub_id.inspect
+  game_pub_id.save!
+
+  # pub = game_pub_id.publishers.create(
+  #   pub_name: vg["publishers"]
+  # )
+  # puts pub.inspect
+  # pub.save!
+
+  g_pt_id = game_pub_id.game_platforms.create(
+    game_publisher_id: game_pub_id.id,
+    platform_id:       Platform.find_or_create_by(platform_name: vg["platforms"]).id,
     release_year:      vg["initial_release_date"]
   )
   puts g_pt_id.inspect
-  region = Region.create(
-    region_name: Faker::Address.country
-  )
-  puts region.inspect
+  # plat = game_pub_id.platforms.create(
+  #   platform_name: vg["platforms"]
+  # )
+  # puts plat.inspect
 
-  region_sales = RegionSale.create(
-    id:               Faker::Number.between(from: 1, to: 200),
-    region_id:        region.id,
-    game_platform_id: plat.id,
+  # region = Region.create(
+  #   region_name: Faker::Address.country
+  # )
+  # puts region.inspect
+
+  region_sales = g_pt_id.region_sales.create(
+    region_id:        Region.find_or_create_by(region_name: Faker::Address.country).id,
+    game_platform_id: g_pt_id.id,
     num_sales:        sales_num[i]
   )
   puts region_sales.inspect
@@ -103,4 +87,9 @@ end
 
 puts "Created #{Genre.count} Genres"
 puts "Created #{Game.count} Games"
+puts "Created #{Publisher.count} Publishers"
 puts "Created #{Platform.count} Platforms"
+puts "Created #{GamePublisher.count} GamePublishers"
+puts "Created #{GamePlatform.count} GamePlatforms"
+puts "Created #{Region.count} Regions"
+puts "Created #{RegionSale.count} RegionSales"

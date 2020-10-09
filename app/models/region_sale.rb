@@ -1,4 +1,4 @@
 class RegionSale < ApplicationRecord
-  belongs_to :regions
-  belongs_to :game_platforms
+  belongs_to :region
+  belongs_to :game_platform
 end

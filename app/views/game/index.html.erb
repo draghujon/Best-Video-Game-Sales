@@ -1,0 +1,46 @@
+<h1>Game#index</h1>
+<p>Find me in app/views/game/index.html.erb</p>
+
+<table>
+<thead>
+    <th>Game</th>
+    <th>Genre</th>
+    <th>Publisher</th>
+    <th>Platform</th>
+    <th>Developer</th>
+    <th>Release Date</th>
+    <th>Region</th>
+    <th>Sales</th>
+</thead>
+
+  <tbody>
+
+    <% @games.each do |game| %>
+      <tr>
+          <td><li><%= link_to game.game_name, game %></li></td>
+          <td><%= game.genre.genre_name %></td>
+            <% game.game_publishers.each do |game_pub| %>
+              <td><%= game_pub.publisher.pub_name %></td>
+              <% game_pub.game_platforms.each do |game_plat| %>
+                <td><%= game_plat.platform.platform_name %></td>
+                <td><%= game.game_dev %></td>
+                <td><%= game_plat.release_year %></td>
+                <% game_plat.region_sales.each do |region| %>
+                  <td><%= region.region.region_name %></td>
+                  <td>$<%= region.num_sales %></td>
+                <% end %>
+              <% end %>
+            <% end %>
+      </tr>
+    <% end %>
+
+      <tr>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
