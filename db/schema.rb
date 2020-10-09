@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_07_211309) do
+ActiveRecord::Schema.define(version: 2020_10_09_202457) do
 
   create_table "game_platforms", force: :cascade do |t|
     t.integer "game_publisher_id", null: false
@@ -42,6 +42,14 @@ ActiveRecord::Schema.define(version: 2020_10_07_211309) do
 
   create_table "genres", force: :cascade do |t|
     t.string "genre_name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "pages", force: :cascade do |t|
+    t.string "title"
+    t.text "content"
+    t.string "permalink"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

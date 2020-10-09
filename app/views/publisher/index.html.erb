@@ -1,2 +1,11 @@
-<h1>Publisher#index</h1>
-<p>Find me in app/views/publisher/index.html.erb</p>
+<table class="table is-1">
+<h4 class="subtitle is-4">Publisher</h4>
+ <tbody>
+    <% @publishers.each do |pub| %>
+      <tr>
+        <td><%= link_to pub.pub_name, pub %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= link_to 'Back', game_index_path %>

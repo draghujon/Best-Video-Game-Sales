@@ -1,2 +1,14 @@
-<h1>Publisher#show</h1>
-<p>Find me in app/views/publisher/show.html.erb</p>
+<h1 class="title is-3"><%= @publisher.pub_name %></h1>
+
+<table class="table is-4">
+  <thead>
+    <h4 class="title is-6">Games with Publisher '<%= @publisher.pub_name %>'</h4>
+      <% @publisher.games.each do |pub_game| %>
+        <tr>
+          <td><%= link_to pub_game.game_name, pub_game %></td>
+        </tr>
+      <% end %>
+  </thead>
+</table>
+
+<%= link_to 'Back', publisher_index_path %>

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'publisher/index'
-  get 'publisher/show'
+  get "publisher/index"
+  get "/publisher/show/(:id)", to: "publisher#show", as: :publisher
   resources :pages
   get "/pages/:permalink" => "pages#permalink", as: :permalink
   get "genre/index"
