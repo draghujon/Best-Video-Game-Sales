@@ -21,7 +21,7 @@
     </section>
   </body>
 
-  <% if controller_name != 'genre' && controller_name != 'game' && controller_name != 'publisher' %>
+  <% if controller_name != 'genre' && controller_name != 'game' && controller_name != 'publisher' && controller_name != 'developer' %>
     <table class="table">
       <td><%= link_to 'Back to Games', game_index_path %></td>
     </table>

@@ -1,0 +1,11 @@
+<table class="table is-1">
+<h4 class="subtitle is-4">Developer</h4>
+ <tbody>
+    <% @games.each do |dev| %>
+      <tr>
+        <td><%= dev.game_dev %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= link_to 'Back', game_index_path %>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "developer/index"
+  get "/developer/show/(:id)", to: "developer#show", as: "developer"
   get "publisher/index"
   get "/publisher/show/(:id)", to: "publisher#show", as: :publisher
   resources :pages
