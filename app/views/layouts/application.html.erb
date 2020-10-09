@@ -21,10 +21,13 @@
     </section>
   </body>
 
-<% if controller_name != 'genre' && controller_name != 'game' %>
-  <table class="table">
-    <td><%= link_to 'Back to Games', game_index_path %></td>
-  </table>
-<% end %>
-
+  <% if controller_name != 'genre' && controller_name != 'game' %>
+    <table class="table">
+      <td><%= link_to 'Back to Games', game_index_path %></td>
+    </table>
+  <% else %>
+    <footer>
+      <%= link_to 'Pages', pages_path %>
+    </footer>
+  <% end %>
 </html>
