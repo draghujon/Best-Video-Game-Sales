@@ -4,6 +4,8 @@ class Game < ApplicationRecord
   has_many :publishers, through: :game_publishers
   has_many :game_platforms, through: :game_publishers
   has_many :region_sales, through: :game_platforms
+
+  validates :game_name, :game_dev, presence: true
   # def self.ordered_by_games
   #   self.select("games.*")
   #       .select("game_id.id) as game_count")

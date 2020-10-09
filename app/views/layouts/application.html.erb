@@ -20,4 +20,11 @@
       </div>
     </section>
   </body>
+
+<% if controller_name != 'genre' && controller_name != 'game' %>
+  <table class="table">
+    <td><%= link_to 'Back to Games', game_index_path %></td>
+  </table>
+<% end %>
+
 </html>
