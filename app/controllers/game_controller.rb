@@ -16,5 +16,6 @@ class GameController < ApplicationController
 
   def show
     @game = Game.find(params[:id])
+    @show_link = false
   end
 end

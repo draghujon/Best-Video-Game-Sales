@@ -29,15 +29,15 @@ video_games.each.with_index do |vg, i|
     game_dev:  vg["developers"],
     genre_id:  genre.id
   )
-  # puts game.inspect
-  game.save!
+  puts game.inspect
+  # game.save!
 
   game_pub_id = game.game_publishers.create(
     publisher_id: Publisher.find_or_create_by(pub_name: vg["publishers"]).id,
     game_id:      game.id
   )
   puts game_pub_id.inspect
-  game_pub_id.save!
+  # game_pub_id.save!
 
   # pub = game_pub_id.publishers.create(
   #   pub_name: vg["publishers"]

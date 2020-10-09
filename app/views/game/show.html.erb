@@ -1,10 +1,14 @@
-<h1>Game#show</h1>
-<p>Find me in app/views/game/show.html.erb</p>
+<h2 class="title is-2">
+  <% if @show_link %>
+    <%= link_to @game.game_name, @game %>
+  <% else %>
+    <%= @game.game_name %>
+  <% end %>
+</h2>
 
-<h1><%= @game.game_name %></h1>
-<table>
+<table class="table is-2">
 <thead>
-    <th>Genre</th>
+    <th><%= link_to 'Genre', genre_index_path %></th>
     <th>Publisher</th>
     <th>Platform</th>
     <th>Developer</th>
