@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pages
   get "genre/index"
   get "game/index"
   # get "game/show"
