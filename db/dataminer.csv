@@ -1,28 +1,60 @@
 title,genre,platforms,initial_release_date,developers,publishers
+Final Fantasy XIV: A Realm Reborn,mmorpg,PC / PS3 / PS4,Square Enix,Square Enix
+Final Fantasy XI Online,mmorpg,PS2 / PC,Square Enix,Square Enix
+Final Fantasy VII,rpg,PS1,1997,Squaresoft,Square Enix
+Final Fantasy XIII,rpg,PS3,2009,Square Enix,Square Enix
+Final Fantasy X,rpg,PS2,2001,Squaresoft,Square Enix
+Final Fantasy XV,rpg,PS4 / XBOX One / PC,2016,Square Enix,Square Enix
+Final Fantasy XII,rpg,PS2,2006,Square Enix,Square Enix
+Final Fantasy VIII,rpg,PS1,1999,Squaresoft,Square Enix
+Final Fantasy X-2,rpg,PS2,2004,Squaresoft,Square Enix
+Final Fantasy IX,rpg,PS1,2000,Squaresoft,Square Enix
+Final Fantasy VI,rpg,SNES,1994,Squaresoft,Square Enix
+Final Fantasy XIII-2,rpg,PS3,2011,Square Enix,Square Enix
+Chrono Trigger,rpg,SNES,1995,Squaresoft,Squaresoft
+Final Fantasy V,rpg,SNES,1992,Squaresoft,Square Enix
+Final Fantasy IV,rpg,SNES,1991,Squaresoft,Square Enix
 Minecraft,sandbox,Multi-platform,2011,Mojang Studios,Mojang Studios
+Final Fantasy III,rpg,NES,1990,Squaresoft,Square Enix
 Grand Theft Auto V,action,Multi-platform,2013,Rockstar North,Rockstar Games
 Tetris (EA),other,Mobile,2006,EA Mobile,Electronic Arts
+Mega Man 2,platformer,NES,1988,Capcom,Capcom
 Wii Sports,sports,Wii,2006,Nintendo EAD,Nintendo
+Lightning Returns: Final Fantasy XIII,PS3,2013,Square Enix,Square Enix
+Final Fantasy,rpg,NES,1987,Squaresoft,Square Enix
+Final Fantasy II,rpg,NES,1988,Squaresoft,Square Enix
 PlayerUnknown's Battlegrounds,action,Multi-platform,2017,PUBG Corporation,PUBG Corporation
-Super Mario Bros.,adventure,Multi-platform,1985,Nintendo,Nintendo
+Mega Man 3,platformer,NES,1990,Capcom,Capcom
+Super Mario Bros.,platformer,Multi-platform,1985,Nintendo,Nintendo
+Mega Man 11,platformer,Switch / PC / PS4 / XBox One,2018,Capcom,Capcom
+Overwatch,fps,PC / PS4,2015,Blizzard,Blizzard
 Pokémon Red / Green / Blue / Yellow,adventure,Multi-platform,1996,Game Freak,Nintendo
 Wii Fit and Wii Fit Plus,sports,Wii,2007,Nintendo EAD,Nintendo
+Final Fantasy XIV Online,mmorpg,PC,2010,Square Enix,Square Enix
 Tetris (Nintendo),other,Game Boy / NES,1989,Nintendo R&D1,Nintendo
-Pac-Man,action,Multi-platform,1980,Namco,Namco
-Mario Kart Wii,sports,Wii,2008,Nintendo EAD,Nintendo
-Mario Kart 8 / Deluxe,sports,Wii U / Switch,2014,Nintendo EAD,Nintendo
+Super Mario Bros,platformer,Multi-platform,1985,Nintendo,Nintendo
+Pac-Man,maze,Multi-platform,1980,Namco,Namco
+Mario Kart Wii,racing,Wii,2008,Nintendo EAD,Nintendo
+Mario Kart 8,racing,Wii U,2014,Nintendo EAD,Nintendo
 Wii Sports Resort,sports,Wii,2009,Nintendo EAD,Nintendo
 Red Dead Redemption 2,action,Multi-platform,2018,Rockstar Studios,Rockstar Games
-New Super Mario Bros.,action-adventure,Nintendo DS,2006,Nintendo EAD,Nintendo
+Mega Man 4,platformer,NES,Capcom,Capcom
+Mega Man 7,platformer,SNES,Capcom,Capcom
+New Super Mario Bros.,platformer,Nintendo DS,2006,Nintendo EAD,Nintendo
+New Super Mario Bros. Wii,platformer,Nintendo Wii,2009,Nintendo,Nintendo
+Mega Man 10,platformer,PS Network / WiiWare,2010,Capcom,Capcom
 Terraria,other,Multi-platform,2011,Re-Logic,Re-Logic / 505 Games
-New Super Mario Bros. Wii,action-adventure,Wii,2009,Nintendo EAD,Nintendo
+New Super Mario Bros. Wii,platformer / action-adventure,Wii,2009,Nintendo EAD,Nintendo
 The Elder Scrolls V: Skyrim,sandbox,Multi-platform,2011,Bethesda Game Studios,Bethesda Softworks
 Diablo III and Reaper of Souls,action-adventure,Multi-platform,2012,Blizzard Entertainment,Blizzard Entertainment
 Pokémon Gold / Silver / Crystal,action,Game Boy Color,1999,Game Freak,Nintendo
-Duck Hunt,sports,NES,1984,Nintendo R&D1,Nintendo
+Diablo 3,hack and slash,PC / Consoles,2012,Blizzard,Blizzard
+Duck Hunt,hunting,NES,1984,Nintendo R&D1,Nintendo
 Wii Play,sports,Wii,2006,Nintendo EAD,Nintendo
 The Witcher 3 / Hearts of Stone / Blood and Wine,action-adventure,Multi-platform,2015,CD Projekt Red,CD Projekt
 Grand Theft Auto: San Andreas,action,Multi-platform,2004,Rockstar North,Rockstar Games
+Mario Kart 8 Deluxe,racing,Switch,2017,Nintendo,Nintendo
+Mega Man,platformer,NES,1987,Capcom,Capcom
 Call of Duty: Modern Warfare 3,action,Multi-platform,2011,Infinity Ward / Sledgehammer,Activision
 Call of Duty: Black Ops,action,Multi-platform,2010,Treyarch,Activision
 Grand Theft Auto IV,action,Multi-platform,2008,Rockstar North,Rockstar Games
@@ -30,23 +62,139 @@ Pokémon Sun / Moon / Ultra Sun / Ultra Moon,adventure,Nintendo 3DS,2016,Game Fr
 Pokémon Diamond / Pearl / Platinum,adventure,Nintendo DS,2006,Game Freak,Nintendo / The Pokémon Company
 Call of Duty: Black Ops II,action,Multi-platform,2012,Treyarch,Activision
 Kinect Adventures!,adventure,Xbox 360,2010,Good Science Studio,Xbox Game Studios
-FIFA 18,sports,Multi-platform,2017,EA Canada,Electronic Arts
+FIFA 18,soccer,Multi-platform,2017,EA Canada,Electronic Arts
 Sonic the Hedgehog,action,Multi-platform,1991,Sonic Team,Sega
 Nintendogs,sandbox,Nintendo DS,2005,Nintendo EAD,Nintendo
-Mario Kart DS,sports,Nintendo DS,2005,Nintendo EAD,Nintendo
+Mario Kart DS,racing,Nintendo DS,2005,Nintendo EAD,Nintendo
 Call of Duty: Modern Warfare 2,action,Multi-platform,2009,Infinity Ward,Activision
 Pokémon Ruby / Sapphire / Emerald,action,Game Boy Advance,2002,Game Freak,Nintendo / The Pokémon Company
 Borderlands 2,action,Multi-platform,2012,Gearbox Software,2K Games
-Super Mario World,action-adventure,Multi-platform,1990,Nintendo EAD,Nintendo
+Super Mario World,platformer / action-adventure,Multi-platform,1990,Nintendo EAD,Nintendo
 Frogger,strategy,Multi-platform,1981,Konami,Sega
 Lemmings,strategy,Multi-platform,1991,DMA Design,Psygnosis
 Grand Theft Auto: Vice City,action,Multi-platform,2002,Rockstar North,Rockstar Games
 The Last of Us,adventure,PS3 / PS4,2013,Naughty Dog,Sony Computer Entertainment
 The Legend of Zelda: Breath of the Wild,action-adventure,Switch / Wii U,2017,Nintendo EPD,Nintendo
+Mega Man 9,platformer,PS Network / WiiWare,2008,Capcom,Capcom
 Brain Age,other,Nintendo DS,2005,Nintendo SPD,Nintendo
 Super Mario Bros. 3,action-adventure,Multi-platform,1988,Nintendo,Nintendo
 Call of Duty: Ghosts,action,Multi-platform,2013,Infinity Ward,Activision
 Super Smash Bros. Ultimate,action,Nintendo Switch,2018,Bandai Namco Studios / Sora Ltd.,Nintendo
-Mario Kart 7,sports,Nintendo 3DS,2011,Nintendo EAD,Nintendo
-Super Mario Land,action-adventure,Multi-platform,1989,Nintendo R&D1,Nintendo
-Gran Turismo 4,sports,PS2 / PSP,2004,Polyphony Digital,Sony Computer Entertainment
+Mario Kart 7,racing,Nintendo 3DS,2011,Nintendo EAD,Nintendo
+Super Mario Land,platformer,Multi-platform,1989,Nintendo R&D1,Nintendo
+Super Mario Odyssey,action-adventure / platformer,Switch,2017,Nintendo EPD,Nintendo
+Gran Turismo 4,racing,PS2 / PSP,2004,Polyphony Digital,Sony Computer Entertainment
+Super Mario Bros 3,platformer,NES,1988,Nintendo,Nintendo
+Mega Man 8,platformer,PS1,1996,Capcom,Capcom
+New Super Mario Bros 2,platformer,3DS,2012,Nintendo EAD,Nintendo
+Mega Man 5,platformer,NES,1992,Capcom,Capcom
+Super Mario Galaxy,platformer / adventure,Wii / Wii U / Switch,2007,Nintendo EAD Tokyo,Nintendo
+Super Mario 3D Land,platformer / adventure,3DS / Wii U,2011,Nintendo EAD Tokyo,Nintendo
+World of Warcraft,mmorpg,PC,2004,Blizzard,Blizzard
+Super Mario 64,platformer,N64,1996,Nintendo EAD,Nintendo
+Super Mario Land 2: 6 Golden Coins,platformer,Gameboy,1992,Nintendo R&D1,Nintendo
+Super Mario 64 DS,platformer,DS,2004,Nintendo EAD4,Nintendo
+Starcraft,real-time strategy,PC,1998,Blizzard,Blizzard
+Super Mario Party,party,Switch,2018,Nd Cube,Nintendo
+Super Mario All-Stars (SNES),platformer,SNES,1993,Nintendo,Nintendo
+RollerCoaster Tycoon 3,construction and management simulation,PC,2004,Frontier Developments,Atari Inc
+Mario Kart 64,racing,N64,1996,Nintendo EAD,Nintendo
+Mario Party DS,party,DS,2007,Hudson Soft,Nintendo
+Mario Party 8,party,Wii,2007,Hudson,Nintendo
+Super Mario Kart,racing,SNES,1992,Nintendo EAD,Nintendo
+Mario Kart 8,racing,Wii U,2014,Nintendo EAD1,Nintendo
+Mega Man 6,platformer,NES,1993,Capcom,Capcom
+Super Mario Bros. 2,platformer,NES,1988,Nintendo,Nintendo
+New Super Mario Bros. U Deluxe (NS),platformer,Switch,2019,Nintendo EPD,Nintendo
+Super Mario Galaxy 2,platformer / adventure,Wii / Wii U,2010,Nintendo EAD Tokyo,Nintendo
+The Sims 3,life simulation,PC,2009,Maxis,Electronic Arts
+Mario Kart Double Dash!!,racing,Gamecube,2003,Nintendo EAD,Nintendo
+Super Mario Sunshine,platformer,Gamecube,2002,Nintendo EAD,Nintendo
+Myst,adventure / puzzle,PC,1993,Cyan,Broderbund
+Starcraft II,real-time strategy,PC,2010,Blizzard,Blizzard
+Mario Kart Super Circuit,racing,GB Advance,2001,Intelligent Systems,Nintendo
+Super Mario 3D World,platformer / adventure,Wii U,2013,Nintendo EAD / 1-Up Studio,Nintendo
+New Super Mario Bros. U,platformer,Wii U,2012,Nintendo EAD4,Nintendo
+Super Mario World: Super Mario Advance 2,platformer,GB Advance,2001,Nintendo,Nintendo
+Super Mario Advance,platformer,GB Advance,2001,Nintendo R&D2,Nintendo
+Super Mario Maker 2,level-creator / platformer,Switch,2019,Nintendo EPD,Nintendo
+Super Mario Advance 4: Super Mario Bros. 3,platformer,GB Advance,2003,Nintendo R&D2,Nintendo
+Dr. Mario (GB),puzzle,Gameboy,1990,Nintendo,Nintendo
+Super Mario Land 3: Wario Land,platformer,Gameboy,1994,Nintendo R&D1,Nintendo
+Super Mario Bros. Deluxe,platformer,Gameboy Color,1994,Nintendo,Nintendo
+Dr. Mario (NES),puzzle,NES,1990,Nintendo,Nintendo
+Mario & Luigi: Browser's Inside Story,rpg,DS,2009,AlphaDream,Nintendo
+Super Mario World 2: Yoshi's Island,platformer,SNES,1995,Nintendo,Nintendo
+Super Mario Maker,level-creator / platformer,Wii U,2015,Nintendo EAD 4,Nintendo
+Diablo II,hack and slash,PC,2000,Blizzard,Blizzard
+New Super Luigi U,platformer / adventure,Wii U,2013,Nintendo EAD,Nintendo
+Diablo III Reaper of Souls,hack and slash,PC / Consoles,2014,Blizzard,Blizzard
+Warcraft III: Reign of Chaos,real-time strategy,PC,Blizzard,Blizzard
+Warcraft III: The Frozen Throne Exp,real-time strategy,PC,Blizzard,Blizzard
+Doom 3,fps,PC,2004,id Sofrware,Activision
+Metroid Prime,platformer,Gamecube,2002,Nintendo,Nintendo
+Yoshi's Island: Super Mario Advance 3,platformer,GB Advance,2002,Nintendo R&D2,Nintendo
+Mario Tennis Aces,tennis,Switch,2018,Camelot,Nintendo
+Mario Party 9,party,Wii,2012,Nd Cube,Nintendo
+Metroid,platformer,NES,1986,Nintendo,Nintendo
+Mario Party,party,N64,1999,Hudson Soft,Nintendo
+Super Mario Bros.: The Lost Levels,platformer,Famicom Disk System,1986,Nintendo,Nintendo
+Diablo,hack and slash,PC,2005,Blizzard,Blizzard
+Mario Party 2,party,N64,2000,Hudson Soft,Nintendo
+Mario Tennis (N64),tennis,N64,2000,Camelot,Nintendo
+Mario Paint,creativity,SNES,1992,Nintendo R&D1,Nintendo
+Super Paper Mario,rpg,Wii,2007,Intelligent Systems,Nintendo
+Super Mario All-Stars (Wii),platformer,Wii,2011,Nintendo EAD,Nintendo
+Mario Bros. (NES),platformer,NES,1983,Nintendo,Nintendo
+Classic NES Series: Super Mario Bros.,platformer,GB Advance,2004,Nintendo,Nintendo
+Mario Party 10,party,Wii U,2015,Nd Cube,Nintendo
+Mario & Luigi: Superstar Saga,rpg,GB Advance,2003,AlphaDream / Vanpool,Nintendo
+Super Mario RPG: Legend of the Seven Stars,rpg,SNES,1996,Square Co.,Nintendo
+Mario & Luigi: Dream Team,rpg,3DS,2013,AlphaDream / Good-Feel,Nintendo
+Super Mario Maker for Nintendo 3DS,level-creator / platformer,3DS,2016,Nintendo Software Technology,Nintendo
+Doom,fps,PC,1993,id Software,id Software
+Doom II: Hell on Earth,fps,1994,id Software,id Software
+Warcraft II: Tides of Darkness,real-time strategy,PC,1995,Blizzard,Blizzard
+Mario Party 4,party,Gamecube,2002,Hudson Soft,Nintendo
+Paper Mario: The Thousand-Year Door,rpg,Gamecube,2004,Intelligent Systems,Nintendo
+Paper Mario: Sticker Star,rpg,3DS,2012,Intelligent Systems,Nintendo
+Mario Party 7,party,Gamecube,2005,Hudson Soft,Nintendo
+Mario Party 3,party,N64,2000,Hudson Soft,Nintendo
+Mario vs. Donkey Kong: Mini-Land Mayhem!,puzzle,DS,2010,Nintendo Software Technology,Nintendo
+Mario Strikers Charged,football,Wii,2007,Next Level Games,Nintendo
+Metroid II: Return of Samus,platformer,GB,Nintendo,Nintendo
+Metroid Fusion,platformer,GB Advance,2002,Nintendo,Nintendo
+Mario Sports Mix,sports,Wii,2011,Square Enix,Nintendo
+Mario Party 5,party,Gamecube,2003,Hudson Soft,Nintendo
+Mario Hoops 3-on-3,basketball,DS,2006,Square Enix,Nintendo
+Mario Golf (N64),golf,N64,1999,Camelot Software Planning,Nintendo
+Super Metroid,platformer,SNES,1994,Nintendo,Nintendo
+Metroid Prime 3: Corruption,platformer,Wii,2007,Nintendo,Nintendo
+Mario & Luigi: Partners in Time,rpg,DS,2005,AlphaDream / Nintendo SPD4,Nintendo
+Paper Mario,rpg,N64,2001,Intelligent Systems,Nintendo
+Mario vs. Donkey Kong,puzzle / platformer,GB Advance,2004,Nintendo Software Technology,Nintendo
+Metroid: Other M,platformer,Wii,2010,Nintendo,Nintendo
+Mario Super Sluggers,baseball,Wii,2008,Namco Bandai Games,Nintendo
+Mario vs. Donkey Kong 2: March of the Minis,puzzle,DS,2006,Nintendo Software Technology,Nintendo
+Mario Golf: Toadstool Tour,golf,Gamecube,2003,Camelot,Nintendo
+Super Mario Strikers,football,Gamecube,2005,Next Level Games,Nintendo
+Mario Tennis (GBC),tennis,Gameboy Color,2001,Camelot,Nitendo
+Mario Party: Island Tour,party,3DS,2013,Nd Cube,Nintendo
+Mario Tennis Open,tennis,3DS,2012,Camelot,Nintendo
+Starcraft II: Heart of the Swarm Exp,real-time strategy,Blizzard,Blizzard
+Metroid Prime 2: Echoes,platformer,Gamecube,2004,Nintendo,Nintendo
+Metroid Prime: Hunters,platformer,DS,2006,Nintendo,Nintendo
+Starcraft II: Legacy of the Void Exp,real-time strategy,Blizzard,Blizzard
+Mario Party 6,party,Gamecube,2004,Hudson Soft,Nintendo
+Diablo II: Lord of Destruction Exp,hack and slash,PC,Blizzard,Blizzard
+Duke Nukem 3D,fps,PC,1996,3D Realms,GT Interactive Software
+Return to Castle Wolfenstein,fps,PC,2001,Gray Matter Interactive / id Software,Activision
+Unreal,fps,PC,1998,Epic Games / Digital Extremes, GT Interactive
+Phantasmagoria,interactive movie,PC,1995,Sierra Online,Sierra Online
+Zoo Tycoon,business simulation,2001,Microsoft,Blue Fang Games
+Metroid: Zero Mission,platformer,GB Advance,2004,Nintendo,Nintendo
+Metroid Prime: Trilogy,platformer,Wii,2009,Nintendo,Nintendo
+Metroid: Samus Returns,platformer,3DS,2017,Nintendo,Nintendo
+Classic NES Series: Metroid,platformer,GB Advance,2004,Nintendo,Nintendo
+Metroid Prime Pinball,pinball,DS,2005,Nintendo,Nintendo
+Metroid Prime: Federation Force,platformer,3DS,2016,Nintendo,Nintendo
