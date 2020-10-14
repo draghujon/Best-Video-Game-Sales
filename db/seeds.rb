@@ -59,53 +59,42 @@ csv_data = File.read(filename)
 sales_num = CSV.parse(csv_data, headers: true, encoding: "utf-8")
 
 video_games.each.with_index do |vg, i|
+  if vg.length() != 6
+    puts vg.length()
+    next
+  end
   genre = Genre.find_or_create_by(genre_name: vg["genre"])
 
-  puts genre.inspect
-
+  #puts genre.inspect
+  #puts vg["publishers"]
   game = genre.games.create(
     game_name: vg["title"],
     game_dev:  vg["developers"],
     genre_id:  genre.id
   )
   puts game.inspect
-  # game.save!
 
+  pub = Publisher.find_or_create_by(pub_name: vg["publishers"])
+  puts pub.inspect
   game_pub_id = game.game_publishers.create(
     publisher_id: Publisher.find_or_create_by(pub_name: vg["publishers"]).id,
     game_id:      game.id
   )
-  puts game_pub_id.inspect
-  # game_pub_id.save!
-
-  # pub = game_pub_id.publishers.create(
-  #   pub_name: vg["publishers"]
-  # )
-  # puts pub.inspect
-  # pub.save!
+  #puts game_pub_id.inspect
 
   g_pt_id = game_pub_id.game_platforms.create(
     game_publisher_id: game_pub_id.id,
     platform_id:       Platform.find_or_create_by(platform_name: vg["platforms"]).id,
     release_year:      vg["initial_release_date"]
   )
-  puts g_pt_id.inspect
-  # plat = game_pub_id.platforms.create(
-  #   platform_name: vg["platforms"]
-  # )
-  # puts plat.inspect
-
-  # region = Region.create(
-  #   region_name: Faker::Address.country
-  # )
-  # puts region.inspect
+  #puts g_pt_id.inspect
 
   region_sales = g_pt_id.region_sales.create(
     region_id:        Region.find_or_create_by(region_name: Faker::Address.country).id,
     game_platform_id: g_pt_id.id,
     num_sales:        sales_num[i]
   )
-  puts region_sales.inspect
+  #puts region_sales.inspect
 end
 
 # puts "Genre: " + genre.inspect

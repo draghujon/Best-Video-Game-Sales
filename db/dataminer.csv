@@ -1,6 +1,6 @@
 title,genre,platforms,initial_release_date,developers,publishers
-Final Fantasy XIV: A Realm Reborn,mmorpg,PC / PS3 / PS4,Square Enix,Square Enix
-Final Fantasy XI Online,mmorpg,PS2 / PC,Square Enix,Square Enix
+Final Fantasy XIV: A Realm Reborn,mmorpg,PC / PS3 / PS4,2013,Square Enix,Square Enix
+Final Fantasy XI Online,mmorpg,PS2 / PC,2002,Square Enix,Square Enix
 Final Fantasy VII,rpg,PS1,1997,Squaresoft,Square Enix
 Final Fantasy XIII,rpg,PS3,2009,Square Enix,Square Enix
 Final Fantasy X,rpg,PS2,2001,Squaresoft,Square Enix
@@ -20,7 +20,7 @@ Grand Theft Auto V,action,Multi-platform,2013,Rockstar North,Rockstar Games
 Tetris (EA),other,Mobile,2006,EA Mobile,Electronic Arts
 Mega Man 2,platformer,NES,1988,Capcom,Capcom
 Wii Sports,sports,Wii,2006,Nintendo EAD,Nintendo
-Lightning Returns: Final Fantasy XIII,PS3,2013,Square Enix,Square Enix
+Lightning Returns: Final Fantasy XIII,rpg,PS3,2013,Square Enix,Square Enix
 Final Fantasy,rpg,NES,1987,Squaresoft,Square Enix
 Final Fantasy II,rpg,NES,1988,Squaresoft,Square Enix
 PlayerUnknown's Battlegrounds,action,Multi-platform,2017,PUBG Corporation,PUBG Corporation
@@ -38,8 +38,8 @@ Mario Kart Wii,racing,Wii,2008,Nintendo EAD,Nintendo
 Mario Kart 8,racing,Wii U,2014,Nintendo EAD,Nintendo
 Wii Sports Resort,sports,Wii,2009,Nintendo EAD,Nintendo
 Red Dead Redemption 2,action,Multi-platform,2018,Rockstar Studios,Rockstar Games
-Mega Man 4,platformer,NES,Capcom,Capcom
-Mega Man 7,platformer,SNES,Capcom,Capcom
+Mega Man 4,platformer,NES,1991,Capcom,Capcom
+Mega Man 7,platformer,SNES,1995,Capcom,Capcom
 New Super Mario Bros.,platformer,Nintendo DS,2006,Nintendo EAD,Nintendo
 New Super Mario Bros. Wii,platformer,Nintendo Wii,2009,Nintendo,Nintendo
 Mega Man 10,platformer,PS Network / WiiWare,2010,Capcom,Capcom
@@ -129,8 +129,8 @@ Super Mario Maker,level-creator / platformer,Wii U,2015,Nintendo EAD 4,Nintendo
 Diablo II,hack and slash,PC,2000,Blizzard,Blizzard
 New Super Luigi U,platformer / adventure,Wii U,2013,Nintendo EAD,Nintendo
 Diablo III Reaper of Souls,hack and slash,PC / Consoles,2014,Blizzard,Blizzard
-Warcraft III: Reign of Chaos,real-time strategy,PC,Blizzard,Blizzard
-Warcraft III: The Frozen Throne Exp,real-time strategy,PC,Blizzard,Blizzard
+Warcraft III: Reign of Chaos,real-time strategy,PC,2002,Blizzard,Blizzard
+Warcraft III: The Frozen Throne Exp,real-time strategy,PC,2003,Blizzard,Blizzard
 Doom 3,fps,PC,2004,id Sofrware,Activision
 Metroid Prime,platformer,Gamecube,2002,Nintendo,Nintendo
 Yoshi's Island: Super Mario Advance 3,platformer,GB Advance,2002,Nintendo R&D2,Nintendo
@@ -153,7 +153,7 @@ Super Mario RPG: Legend of the Seven Stars,rpg,SNES,1996,Square Co.,Nintendo
 Mario & Luigi: Dream Team,rpg,3DS,2013,AlphaDream / Good-Feel,Nintendo
 Super Mario Maker for Nintendo 3DS,level-creator / platformer,3DS,2016,Nintendo Software Technology,Nintendo
 Doom,fps,PC,1993,id Software,id Software
-Doom II: Hell on Earth,fps,1994,id Software,id Software
+Doom II: Hell on Earth,fps,PC,1994,id Software,id Software
 Warcraft II: Tides of Darkness,real-time strategy,PC,1995,Blizzard,Blizzard
 Mario Party 4,party,Gamecube,2002,Hudson Soft,Nintendo
 Paper Mario: The Thousand-Year Door,rpg,Gamecube,2004,Intelligent Systems,Nintendo
@@ -162,7 +162,7 @@ Mario Party 7,party,Gamecube,2005,Hudson Soft,Nintendo
 Mario Party 3,party,N64,2000,Hudson Soft,Nintendo
 Mario vs. Donkey Kong: Mini-Land Mayhem!,puzzle,DS,2010,Nintendo Software Technology,Nintendo
 Mario Strikers Charged,football,Wii,2007,Next Level Games,Nintendo
-Metroid II: Return of Samus,platformer,GB,Nintendo,Nintendo
+Metroid II: Return of Samus,platformer,GB,1991,Nintendo,Nintendo
 Metroid Fusion,platformer,GB Advance,2002,Nintendo,Nintendo
 Mario Sports Mix,sports,Wii,2011,Square Enix,Nintendo
 Mario Party 5,party,Gamecube,2003,Hudson Soft,Nintendo
@@ -181,17 +181,17 @@ Super Mario Strikers,football,Gamecube,2005,Next Level Games,Nintendo
 Mario Tennis (GBC),tennis,Gameboy Color,2001,Camelot,Nitendo
 Mario Party: Island Tour,party,3DS,2013,Nd Cube,Nintendo
 Mario Tennis Open,tennis,3DS,2012,Camelot,Nintendo
-Starcraft II: Heart of the Swarm Exp,real-time strategy,Blizzard,Blizzard
+Starcraft II: Heart of the Swarm Exp,real-time strategy,PC,2013,Blizzard,Blizzard
 Metroid Prime 2: Echoes,platformer,Gamecube,2004,Nintendo,Nintendo
 Metroid Prime: Hunters,platformer,DS,2006,Nintendo,Nintendo
-Starcraft II: Legacy of the Void Exp,real-time strategy,Blizzard,Blizzard
+Starcraft II: Legacy of the Void Exp,real-time strategy,PC,2015,Blizzard,Blizzard
 Mario Party 6,party,Gamecube,2004,Hudson Soft,Nintendo
-Diablo II: Lord of Destruction Exp,hack and slash,PC,Blizzard,Blizzard
+Diablo II: Lord of Destruction Exp,hack and slash,PC,2001,Blizzard,Blizzard
 Duke Nukem 3D,fps,PC,1996,3D Realms,GT Interactive Software
 Return to Castle Wolfenstein,fps,PC,2001,Gray Matter Interactive / id Software,Activision
 Unreal,fps,PC,1998,Epic Games / Digital Extremes, GT Interactive
 Phantasmagoria,interactive movie,PC,1995,Sierra Online,Sierra Online
-Zoo Tycoon,business simulation,2001,Microsoft,Blue Fang Games
+Zoo Tycoon,business simulation,PC,2001,Microsoft,Blue Fang Games
 Metroid: Zero Mission,platformer,GB Advance,2004,Nintendo,Nintendo
 Metroid Prime: Trilogy,platformer,Wii,2009,Nintendo,Nintendo
 Metroid: Samus Returns,platformer,3DS,2017,Nintendo,Nintendo
