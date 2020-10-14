@@ -1,8 +1,8 @@
 <h1 class="title is-3"><%= @genre.genre_name %></h1>
 
+<h4 class="title is-6">Games with genre '<%= @genre.genre_name %>'</h4>
 <table class="table is-4">
   <thead>
-    <h4 class="title is-6">Games with genre '<%= @genre.genre_name %>'</h4>
     <% @genre.games.each do |game| %>
     <tr>
       <td><%= link_to game.game_name, game %></td>
