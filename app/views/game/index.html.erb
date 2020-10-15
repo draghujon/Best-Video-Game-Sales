@@ -25,7 +25,7 @@
               <td><%= game_plat.release_year %></td>
               <% game_plat.region_sales.each do |region| %>
                 <td><%= region.region.region_name %></td>
-                <td <% if region.num_sales.to_f >= 100 %> style="background-color:lime" <% end %>>$<%= region.num_sales %></td>
+                <td <% if region.num_sales.split(',').join('').to_d >= 100000000 %> style="background-color:lime" <% end %>>$<%= region.num_sales %></td>
               <% end %>
             <% end %>
           <% end %>
