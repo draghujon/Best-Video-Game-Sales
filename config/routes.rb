@@ -5,6 +5,13 @@ Rails.application.routes.draw do
   get "/publisher/show/(:id)", to: "publisher#show", as: :publisher
   resources :pages
   get "/pages/:permalink" => "pages#permalink", as: :permalink
+
+  resources :game, only: %i[index] do
+    collection do
+      get "search"
+    end
+  end
+
   get "genre/index"
   get "game/index"
   # get "game/show"
