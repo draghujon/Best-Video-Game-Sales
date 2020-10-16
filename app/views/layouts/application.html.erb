@@ -13,6 +13,28 @@
   </head>
 
   <body>
+    <header class="footer is-4">
+      <% if controller_name != 'game' %>
+        <%= link_to 'Games', game_index_path %>
+      <% else %>
+        <p><%= 'Games' %></p>
+      <% end %>
+      <% if controller_name != 'genre' %>
+        <p><%= link_to 'Genres', genre_index_path %></p>
+      <% else %>
+        <p><%= 'Genres' %></p>
+      <% end %>
+      <% if controller_name != 'publisher' %>
+        <p><%= link_to 'Publishers', publisher_index_path %></p>
+      <% else %>
+        <p><%= 'Publishers' %></p>
+      <% end %>
+      <% if controller_name != 'developer' %>
+        <p><%= link_to 'Developer', developer_index_path %></p>
+      <% else %>
+        <p><%= 'Developers' %></p>
+      <% end %>
+    </header>
     <section class="section">
       <div class="container">
         <h1 class="title is-1"><%= link_to "Best 200 Video Game Sales", game_index_path %></h1>
@@ -36,7 +58,7 @@
       <td><%= link_to 'Back to Games', game_index_path %></td>
     </table>
   <% else %>
-    <footer>
+    <footer class="footer is-4">
       <%= link_to 'Pages', pages_path %>
     </footer>
   <% end %>
