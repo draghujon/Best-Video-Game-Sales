@@ -30,9 +30,14 @@
         <p><%= 'Publishers' %></p>
       <% end %>
       <% if controller_name != 'developer' %>
-        <p><%= link_to 'Developer', developer_index_path %></p>
+        <p><%= link_to 'Developers', developer_index_path %></p>
       <% else %>
         <p><%= 'Developers' %></p>
+      <% end %>
+      <% if controller_name != 'pages' %>
+        <p><%= link_to 'Pages', pages_path %></p>
+      <% else %>
+        <p><%= 'Pages' %></p>
       <% end %>
     </header>
     <section class="section">
