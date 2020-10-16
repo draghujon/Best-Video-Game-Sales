@@ -4,6 +4,7 @@
 <table class="table is-1">
   <thead>
     <tr>
+      <th>#</th>
       <th>Game</th>
       <th><%= link_to 'Genre', genre_index_path %></th>
       <th><%= link_to 'Publisher', publisher_index_path %></th>
@@ -18,7 +19,7 @@
   <tbody>
     <% @games.each.with_index do |game, i| %>
       <tr>
-
+        <td><% if params[:page].nil? %><%= i + 1 %><% else %><%= params[:page].to_i * 25 - 24 + i %><% end %> </td>
         <td><%= link_to game.game_name, game %></td>
         <td><%= link_to game.genre.genre_name, game.genre %></td>
           <% game.game_publishers.each do |game_pub| %>

@@ -6,7 +6,7 @@ class Game < ApplicationRecord
   has_many :region_sales, through: :game_platforms
 
   validates :game_name, :game_dev, presence: true
-  paginates_per 50
+  paginates_per 25
   # def self.ordered_by_games
   #   self.select("games.*")
   #       .select("game_id.id) as game_count")
