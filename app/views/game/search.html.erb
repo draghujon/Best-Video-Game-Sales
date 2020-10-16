@@ -1,4 +1,11 @@
-<p class="mb-5">Found <%= pluralize(@games.count, 'Game') %> when searching for: <%= params[:keywords] %></p>
+<p class="mb-5">Found <%= pluralize(@games.count, 'Game') %> when searching
+  <% if params[:genre].empty? && params[:keywords].empty? %>
+    <%= "All Games" %>
+  <% else %>
+    <% if !params[:keywords].empty? %> for <%= params[:keywords] %><% end %>
+    <% if !@genre_search.empty? %> in <%= @genre_search %><% end %>
+  <% end %>
+</p>
 
 <ul>
   <% @games.each do |game| %>
